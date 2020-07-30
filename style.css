@@ -1,0 +1,50 @@
+body{
+    margin: 0
+}
+
+nav {
+    position: fixed;
+    height: 10vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-main-primary{
+    background-color: lightblue;
+}
+
+.nav-alternate-color{
+    background-color: plum;
+}
+
+section{
+    height: 100vh;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.25px;
+    text-shadow: 3px 5px black;
+
+
+    animation: fadeIn ease-in-out .5s;
+}
+
+
+
+@keyframes fadeIn {
+
+    0%{
+        opacity: 0;
+        transform: translate(-800px);
+    }
+    
+}
